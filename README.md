@@ -2,6 +2,8 @@
 
 Alfred workflow to Quickly Find Folders by partial match. Powered by the standard Find utility.
 
+![Demo image](demo.gif)
+
 # Usage
 First, configure the workflow and set a folder to start searches from (could be your home folder).
 
