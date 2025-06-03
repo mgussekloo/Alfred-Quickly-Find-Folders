@@ -14,3 +14,11 @@ Or select a folder and press command+enter to reveal in Finder.
 
 The default maxdepth for searches is 3, to keep searching snappy. 
 Folders prefixed with a dot (e.g. .git), vendor, node_modules and ~/Library are ignored by default.
+
+# Requirements
+
+This workflow requires JQ on your system.
+
+Use Homebrew to install jq with: brew install jq
+Use MacPorts to install jq with: port install jq
+Use Fink to install jq with: fink install jq
