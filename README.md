@@ -1,20 +1,21 @@
 # Quickly Find Folders
 
-Alfred workflow to Quickly Find Folders by partial match. Powered by the standard Find utility.
+Alfred workflow to Quickly Find Folders by partial match(es). Powered by the standard Find utility.
 
 ![Demo image](demo.gif)
 
 # Usage
-First, configure the workflow and set a folder to start searches from. In my case, it's my development projects folder.
+- Use the keyword *qff* followed by one or more partial folder names to start searching.
+  - To quickly find ~/Projects/Demo/Workspace/Resources/Assets, you could use "qff demo assets"
+  - To quickly find ~/Dropbox/Photos/2024/August/Spain, you could use "qff drop 24 spain"
 
-- Use the keyword "qff" followed by a partial folder name to start searching.
-- Select a folder and press enter to "drill down" and start a search from here.
-- Or select a folder and press command+enter to open in Finder, or option+enter to reveal in Finder.
-- Use . (a single dot) to target the current directory, or .. (two dots) to target the parent directory.
+- Press enter to "drill down" and start a new search, from here.
+- Press command+enter to open in Finder, or option+enter to reveal in Finder.
+- Use . (a single dot) to select the current directory, or .. (two dots) to select the parent directory.
 
 # Good to know
 
-The default folder maxdepth for searches is 3. The minimum length for a search query is 3 letters. These defaults aim to keep searching snappy and prevent generic results, but they can be configured to your liking.
+This only finds folders. This is the intended behavior. The default search max depth is 3, meaning for every search term it searches three folders deep. The minimum length for a searchterm is 3 letters. This keeps searching fast-ish and prevents searching for short, generic terms. Feel free to configure it to your liking.
 
 Folders prefixed with a dot (e.g. .git), vendor, node_modules, ~/Library and some Wordpress folders are ignored by the search.
 
