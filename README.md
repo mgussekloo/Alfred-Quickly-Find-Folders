@@ -7,7 +7,7 @@ Alfred workflow to Quickly Find Folders by partial match(es). Powered by the sta
 # Usage
 - Use the keyword *qff* followed by one or more partial folder names to start searching.
   - To quickly find ~/Projects/Demo/Workspace/Resources/Assets, you could use "qff demo assets"
-  - To quickly find ~/Dropbox/Photos/2024/August/Spain, you could use "qff drop 24 spain"
+  - To quickly find ~/Backup/Photos/2024/August/Spain, you could use "qff back 24 spain"
 
 - Press enter to "drill down" and start a new search, from here.
 - Press command+enter to open in Finder, or option+enter to reveal in Finder.
@@ -18,6 +18,8 @@ Alfred workflow to Quickly Find Folders by partial match(es). Powered by the sta
 This only finds folders. This is the intended behavior. The default search max depth is 3, meaning for every search term it searches three folders deep. The minimum length for a searchterm is 3 letters. This keeps searching fast-ish and prevents searching for short, generic terms. Feel free to configure it to your liking.
 
 Folders prefixed with a dot (e.g. .git), vendor, node_modules, ~/Library and some Wordpress folders are ignored by the search.
+
+The utility powering this, Find, does not support following symbolic links (e.g. the Dropbox folder)...
 
 # Requirements
 
