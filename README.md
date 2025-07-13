@@ -5,7 +5,7 @@ Alfred workflow to Quickly Find Folders, drilling down by partial matches. Power
 ![Demo image](demo.gif)
 
 # Usage
-- Use the keyword *qff* followed by one or more partial folder names to start searching.
+- Use the keyword *qff* followed by one or more partial folder names to start searching. Examples of how you could drill down to a specific folder:
   - To quickly find ~/Dropbox/Gusmanson/EYE/animation, use "qff drop eye anim"
   - To quickly find ~/Projects/Demo/Workspace/Resources/Assets, use "qff demo assets"
   - To quickly find ~/Backup/Photos/2024/August/Spain, use "qff back 24 spain"
