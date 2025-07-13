@@ -1,6 +1,6 @@
 # Quickly Find Folders
 
-Alfred workflow to Quickly Find Folders by partial match(es). Powered by the standard Find utility.
+Alfred workflow to Quickly Find Folders, drilling down by partial matches. Powered by the standard Find utility.
 
 ![Demo image](demo.gif)
 
